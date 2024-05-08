@@ -1,0 +1,46 @@
+.head-wrap {
+   margin-left: auto;
+   margin-right: auto;
+   /* padding-top: 10px;
+    margin-bottom: 10px; */
+}
+/* ==== HEADER ============== */
+.main-head {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.main-head__wrapper {
+   display: flex;
+   /* justify-content: space-between; */
+   align-items: center;
+   width: 95%;
+   /* height: 210px; */
+   margin: auto;
+
+   /* width: 95%; */
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #cccccc;
+
+   background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231231/pngtree-close-up-of-knitted-wool-texture-white-natural-material-with-crochet-image_13870091.png);
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
+}
+
+.main-head__bg {
+   width: 100%;
+
+   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-title {
+   font-size: 60px;
+   font-weight: 700;
+   text-align: center;
+   line-height: 200px;
+}
