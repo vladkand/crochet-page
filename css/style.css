@@ -51,6 +51,7 @@ h1 {
    background-color: rgba(255, 255, 255, 0.5);
 }
 
+/* ===== NAV ===== */
 .nav-box {
    border: 2px solid #4682b4;
    border-radius: 5px;
@@ -116,15 +117,6 @@ p {
 
 .anker {
    color: red;
-}
-
-footer {
-   background-image: radial-gradient(circle, #e6e6fa, #bc8f8f);
-   font-family: Courier New, monospace;
-   color: #00008b;
-   text-align: center;
-   padding: 20px 20px;
-   margin-top: 20px;
 }
 
 .img-container {
@@ -205,4 +197,13 @@ footer {
 
 .ifr {
    width: 100%;
+}
+
+footer {
+   background-image: radial-gradient(circle, #e6e6fa, #bc8f8f);
+   font-family: Courier New, monospace;
+   color: #00008b;
+   text-align: center;
+   padding: 20px 20px;
+   margin-top: 20px;
 }
