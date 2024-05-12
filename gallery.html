@@ -3,26 +3,32 @@
   <head>
     <title>Crochet diary-NEW</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
     <header>
 			<h1>Сучасне в'язання</h1>
 	</header>
+
   <nav class="nav-box">
-    
+    <ul class="hr nav-list">
+      <li><a class="nav-link" href="index.html">Головна сторінка</a></li>
+      <li><a class="nav-link" href="info.html">Одяг</a></li>
+      <li><a class="nav-link" href="form.html">Аксесуари</a></li>
+      <li><a class="nav-link" href="gallery.html">Іграшки</a></li>
+    </ul>
   </nav>
-	<div class="b2">
-			<ul class="hr">
-				<li><a href="index.html">Головна сторінка</a></li>
-				<li><a href="info.html">Одяг</a></li>
-				<li><a href="form.html">Аксесуари</a></li>
-				<li><a href="gallery.html">Іграшки</a></li>
-			</ul>
-		</div>
 		
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/_Dk8DFGiVOk?si=mQ1pIA588EYknXqG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/bKsjJJB7jKI?si=HTFRlAFYaMFxLAJK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <div class="container">
+    <div class="video">
+      <iframe id="video7" width="560" height="315" src="https://www.youtube.com/embed/bKsjJJB7jKI?si=HTFRlAFYaMFxLAJK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="video">
+      <iframe id="video8" width="560" height="315" src="https://www.youtube.com/embed/_Dk8DFGiVOk?si=mQ1pIA588EYknXqG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 		
     <div id="main">
       <div class="img-container">
@@ -35,7 +41,7 @@
         <ul>
           <li><img src="images/6.jpg" alt="" /></li>
           <li><img src="images/7.jpg" alt="" /></li>
-		  <li><img src="images/1.jpg" alt="" /></li>
+		      <li><img src="images/1.jpg" alt="" /></li>
         </ul>
         <ul>
           <li><img src="images/3.jpg" alt="" /></li>
@@ -44,7 +50,9 @@
         </ul>
       </div>
     </div>
-	
+	</div>
+
+
 	<div id="topcontrol" style="position: fixed; z-index: 100500; bottom: 30px; right: 30px; cursor: pointer; opacity: 1;" title="На початок сторінки">
 			<a href="gallery.html"><img src="images/up.png" width="70"></a>
 	</div>
