@@ -58,7 +58,10 @@ header {
    box-shadow: 0 0 10px #ea3939;
    border-radius: 10px;
    margin-top: 20px;
-   background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231231/pngtree-close-up-of-knitted-wool-texture-white-natural-material-with-crochet-image_13870091.png);
+   /* background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231231/pngtree-close-up-of-knitted-wool-texture-white-natural-material-with-crochet-image_13870091.png); */
+
+   background-image: url(../images/bg-header.png);
+
    min-height: 200px;
    line-height: 200px;
    margin-bottom: 10px;
@@ -123,7 +126,7 @@ h1 {
 /* ================ */
 
 /* ===== ANIME-BOX ===== */
-.anime-box {
+/* .anime-box {
    width: 100%;
    height: 100px;
    background-color: red;
@@ -131,7 +134,7 @@ h1 {
    animation-name: splacsh;
    animation-duration: 150ms;
    animation-iteration-count: infinite;
-}
+} */
 
 @keyframes splacsh {
    0% {
@@ -146,7 +149,25 @@ h1 {
    }
 }
 
+@keyframes trans {
+   0% {
+      left: 100%;
+   }
+
+   100% {
+      left: 0%;
+   }
+}
+
+.trans-box {
+   position: relative;
+
+   animation-name: trans;
+   animation-duration: 1580ms;
+}
+
 .container {
+   position: relative;
    max-width: 860px;
    margin-left: auto;
    margin-right: auto;
@@ -156,9 +177,9 @@ h1 {
    padding-top: 15px;
    background-color: white;
 
-   animation-name: splacsh;
-   animation-duration: 150ms;
-   animation-iteration-count: infinite;
+   /* animation-name: splacsh;
+   animation-duration: 180ms;
+   animation-iteration-count: infinite; */
 }
 
 p {
