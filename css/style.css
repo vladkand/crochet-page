@@ -5,7 +5,7 @@ src: url(fonts/LeoHand.ttf);
 
 body {
    font-size: 100%;
-   background-image: url("../images/bg.jpg");
+   background-image: url('../images/bg.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -38,9 +38,9 @@ a {
    /*margin: 0 0.5rem;*/
 
    /* referring directly to the animation's @keyframe declaration */
-    /*animation: backOutDown; */
+   /*animation: backOutDown; */
 
-   animation: fadeInRightBig;
+   animation-name: opacity-tag;
 
    /* animate__backOutDown */
 
@@ -48,6 +48,7 @@ a {
 
    animation-iteration-count: 1;
 }
+/* ========================== */
 
 /*===================*/
 
@@ -71,9 +72,7 @@ h1 {
    font-size: 300%;
    color: brown;
    background-color: rgba(255, 255, 255, 0.5);
-      border-radius: 10px;
-
-
+   border-radius: 10px;
 }
 
 /* ===== NAV ===== */
@@ -121,6 +120,31 @@ h1 {
    transition-duration: 0.5s;
    box-shadow: 0px 0px 10px grey;
 }
+/* ================ */
+
+/* ===== ANIME-BOX ===== */
+.anime-box {
+   width: 100%;
+   height: 100px;
+   background-color: red;
+
+   animation-name: splacsh;
+   animation-duration: 150ms;
+   animation-iteration-count: infinite;
+}
+
+@keyframes splacsh {
+   0% {
+      background-color: #ffffff;
+   }
+   50% {
+      background-color: blue;
+   }
+
+   100% {
+      background-color: red;
+   }
+}
 
 .container {
    max-width: 860px;
@@ -131,6 +155,10 @@ h1 {
    padding-bottom: 15px;
    padding-top: 15px;
    background-color: white;
+
+   animation-name: splacsh;
+   animation-duration: 150ms;
+   animation-iteration-count: infinite;
 }
 
 p {
